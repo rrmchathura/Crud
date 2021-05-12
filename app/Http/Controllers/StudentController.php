@@ -23,7 +23,8 @@ class StudentController extends Controller
    {
        $request->validate([
            'studname => 'required',
-           ''
+           'course' => 'required',
+           'fee' => 'required'
        ])
    }
 
