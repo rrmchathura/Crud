@@ -11,5 +11,5 @@ class Student extends Model
 
     protected $fillable = [
         'studname','course','fee',
-    ]
+    ];
 }
